@@ -16,6 +16,7 @@ const Heroes = (props) => (
 						alt={h.name}
 						name={h.name}
 						powers={h.powers}
+						secretIdentities={h.secretIdentities}
 						universe={h.universe}
 					/>
 				));
@@ -32,6 +33,7 @@ const HEROES_QUERY = gql`
 			name
 			powers
 			universe
+			secretIdentities
 		}
 	}
 `;
