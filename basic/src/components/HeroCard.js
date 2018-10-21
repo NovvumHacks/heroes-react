@@ -30,7 +30,7 @@ const HeroCard = (props) => {
 				className={classes.media}
 				height="auto"
 				image={props.image}
-				title={props.title}
+				title={props.name}
 			/>
 			<CardContent>
 				<Typography gutterBottom variant="h5" component="h2">
